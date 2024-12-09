@@ -1,0 +1,38 @@
+
+.search-container{
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.search{
+flex: 1;
+width: 100%;
+padding: 10px 20px;
+border: none;
+outline: none;
+border-radius: 20px;
+background-color: gainsboro;
+}
+.main-container{
+padding: 20px;
+}
+ul{
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+}
+li{
+margin: 7px 30px;
+}
+button{
+padding: 10px 30px;
+margin: 0 35px;
+border: none;
+background-color: purple;
+color: white;
+border-radius: 10px;
+position: sticky;
+bottom: 30px;
+left: 0;
+}
